@@ -1,2 +1,2 @@
 heroku ps:scale web=1 
-web: gunicorn appn.wsgi --log-file -
+web: gunicorn weather-app-cez.wsgi --log-file -
